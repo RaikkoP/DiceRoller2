@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <!-- CSS only -->
+  <meta charset="utf-8">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <title>Täringud</title>
+  <script src="https://kit.fontawesome.com/e1ff197604.js" crossorigin="anonymous"></script>
+  <!-- JavaScript Bundle with Popper -->
+  <style>
+    button {
+      background-color: #c1d4c6;
+      font-size: 20px;
+      border: none;
+      border-radius: 12px;
+
+    }
+    button:hover {
+      background-color: #a0ada3
+    }
+    body{
+      text-align: center;
+      padding: 20px;
+      padding-top: 70px;
+    }
+    div {
+      background-color: #b5e3e6;
+      border: none;
+      padding-top:10px;
+      border-radius: 5px;
+    }
+  </style>
+
+</head>
+<body>
+<div>
+  <i class="fa-solid fa-dice fa-2xl"></i>
+  <h1>Täringu visete simulaator</h1>
+  <label for="täringud">Sisestage täringute arv: </label>
+  <input id="täringud"> <br><br>
+  <button id="button" onclick="täringud.veereta()">Veereta täringuid</button>
+  <br>
+  <h2 id="tulemus"></h2>
+  <script src="täring2.js"></script>
+</div>
+</body>
+</html>
